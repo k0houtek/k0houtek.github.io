@@ -43,3 +43,13 @@ p {
     border-radius: 10px;
     border: solid 1px #6e6a86;
 }
+
+ul {
+    background-color: #26233a;
+    border-radius: 10px;
+    padding: 15px 30px;
+    border: solid 1px #6e6a86;
+}
+
+a,a:visited { color: #9ccfd8; }
+a:hover { color: #31748f; }
