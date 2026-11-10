@@ -1,0 +1,45 @@
+@font-face {
+    src: url("noseyrodent-Regular.ttf");
+    font-family: "nosey rodent";
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    background-color: #191724;
+    color: #e0def4;
+    font-family: "nosey rodent", sans-serif;
+}
+
+h1 { color: #eb6f92; }
+h2 { color: #f6c177; }
+h3 { color: #ebbcba; }
+
+h1::before { content: "# "; }
+h2::before { content: "## "; }
+h3::before { content: "### "; }
+
+h1 {
+    /*background-color: #26233a;
+    border-radius: 10px;
+    border: solid 1px #6e6a86;
+    */
+    margin: 0;
+    padding: 0px;
+}
+
+main {
+    background-color: #1f1d2e;
+    padding: 15px;
+    max-width: 700px;
+    margin: 30px auto;
+    border: solid 1px #6e6a86;
+    border-radius: 10px;
+}
+
+p {
+    background-color: #26233a;
+    padding: 15px;
+    border-radius: 10px;
+    border: solid 1px #6e6a86;
+}
